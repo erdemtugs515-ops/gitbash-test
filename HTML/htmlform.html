@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form>
+        <!-- Contact Information -->
+        <fieldset>
+            <legend>Contact information:</legend>
+            
+            <label>First name<br>
+                <input type="text" name="firstname" placeholder="First name">
+            </label><br>
+
+            <label>Last name<br>
+                <input type="text" name="lastname" placeholder="Last name">
+            </label><br>
+
+            <label>Email<br>
+                <input type="email" name="email" placeholder="Email">
+            </label><br>
+
+            <label>Telephone<br>
+                <input type="tel" name="telephone" placeholder="Telephone">
+            </label><br><br>
+
+            <label>Preferred contact method:</label><br>
+            <input type="checkbox" name="contact_method" value="email"> Email<br>
+            <input type="checkbox" name="contact_method" value="telephone"> Telephone
+        </fieldset>
+
+        <!-- Feedback Section -->
+        <fieldset>
+            <legend>Feedback:</legend>
+
+            <input type="text" name="subject" placeholder="Message subject"><br><br>
+            <textarea name="message" rows="10" cols="50"></textarea><br><br>
+
+            <label>Attach a file: 
+                <input type="file" name="file">
+            </label>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
