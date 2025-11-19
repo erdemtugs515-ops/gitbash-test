@@ -1,5 +1,0 @@
-print("Program starting")
-print("String comparisons")
-
-word1 = input("Insert first word: ")
-inp1 = input("Insert a character: ")
