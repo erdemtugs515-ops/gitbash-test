@@ -1,16 +1,15 @@
-def askName()-> str:
-    name = input("Insert name")
-    return name
+def askname():
+    name = input("Please enter your name: ")
+    return name 
 
-def greetuser(Pname)-> None:
-    print("Hello {name}")
-    return None 
-
-def main() -> None:
-    print("Program starting.")
-    name = askName
-    greetuser(name)
-    print("Program ending.")
+def greetUser(Pname):
+    print(f"Hello {Pname}")
     return None
 
+def main():
+    print("Program starting")
+    name = askname()
+    greetUser(name)
+    print("Program ending. ")
+    return None
 main()

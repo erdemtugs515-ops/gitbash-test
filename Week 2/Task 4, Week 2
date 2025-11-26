@@ -1,0 +1,14 @@
+print("Program starting.")
+print("Estimating how many minutes spent on programming")
+
+t1= input("A1_T1: ")
+t2= input("A1_T2: ")
+t3= input("A1_T3: ")
+t4= input("A1_T4: ")
+t5= input("A1_T5: ")
+t6= input("A1_T6: ")
+t7= input("A1_T7: ")
+
+total = int(t1) + int(t2) + int(t3) + int(t4) + int(t5) + int(t6) + int(t7)
+print(f"In total you have spent {total} minutes coding.")
+

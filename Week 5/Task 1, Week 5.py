@@ -1,4 +1,6 @@
-def main():
-    print("Hello from main function")
-    print("Program starting.")
-    print("Program ending.")
+print("Program starting.")
+def say_hello():
+    print("Hello from the main function")
+    return None 
+say_hello()
+print("Program ending.")
